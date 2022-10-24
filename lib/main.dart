@@ -43,7 +43,6 @@ class _TextFieldDemoPageState extends State<TextFieldDemoPage> {
       body: Center(
         child: Padding(
           padding: const EdgeInsets.all(20.0),
-          //añadir dos campos de texto de tipo text y password y utilizar onChanged para guardar los valores, un boton para enviar los datos a otra pantalla y mostrarlos
           child: Column(
             children: [
               TextField(
